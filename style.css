@@ -1,0 +1,140 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, me, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*style*/
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#EEEEEE ;
+}
+
+.head {
+  padding: 1em 2em;
+  background-color:#757575;
+  color: white;
+  height: 100px;
+
+}
+.head h1 {
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: bold;
+}
+ul {
+  text-align: center;
+  list-style-type: disc;
+  background-color: #BDBDBD;
+  padding: 2em 2em;
+  color: #FF5722;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+
+
+.translation-wrapper {
+  transition:border-color 0.3s ease;
+  margin: auto;
+  margin-bottom:1em ;
+  border: 10px solid grey;
+  border-radius: 10px;
+  display: flex;
+  width: 650px;
+}
+
+
+.time{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.timer{
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 2em;
+  font-weight: bold;
+}
+button {
+  transition:all 0.3s ease;
+  margin-left: 1px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #E64A19;
+  background: white ;
+  border: 10px solid #E64A19;
+}
+
+button:hover {
+  color: white;
+  background-color: #E64A19;
+}
+
+#Word {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: #FFF176;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid antiquewhite;
+  border-style: outset;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 10px 10px 5px grey;
+  transition:all 1s ease;
+}
